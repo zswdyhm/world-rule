@@ -1,0 +1,18 @@
+# NAME: OKX
+# UPDATED: 2025-11-16
+# DOMAIN-SUFFIX: 7
+# TOTAL: 7
+
+# OKX (欧易) 交易所规则
+# 主域名
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okcoin.com
+
+# DNS 和 API 域名
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+DOMAIN-SUFFIX,okx-dns2.com
+
+# 区块链浏览器
+DOMAIN-SUFFIX,oklink.com
