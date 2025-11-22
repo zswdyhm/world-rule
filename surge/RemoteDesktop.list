@@ -1,9 +1,9 @@
 # NAME: RemoteDesktop
 # UPDATED: 2025-11-22
-# PROCESS-NAME: 15
+# PROCESS-NAME: 18
 # DOMAIN-SUFFIX: 28
 # DOMAIN: 2
-# TOTAL: 45
+# TOTAL: 48
 
 # 远程桌面/远程控制规则
 # 数据来源: https://github.com/blackmatrix7/ios_rule_script + 补充
@@ -11,6 +11,11 @@
 # ========================================
 # 进程名称规则 (PROCESS-NAME)
 # ========================================
+
+# Apple 屏幕共享 / Apple Remote Desktop (macOS)
+PROCESS-NAME,Screen Sharing
+PROCESS-NAME,Remote Desktop
+PROCESS-NAME,screensharingd
 
 # 向日葵远程控制 (Sunlogin/Oray)
 PROCESS-NAME,SunloginClient.exe
