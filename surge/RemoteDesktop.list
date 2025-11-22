@@ -1,0 +1,52 @@
+# NAME: RemoteDesktop
+# UPDATED: 2025-11-22
+# PROCESS-NAME: 9
+# DOMAIN-SUFFIX: 12
+# TOTAL: 21
+
+# 远程桌面规则
+# 数据来源: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/RemoteDesktop
+
+# === 进程名称规则 ===
+# 向日葵远程控制
+PROCESS-NAME,SunloginClient.exe
+PROCESS-NAME,CrashReport.exe
+PROCESS-NAME,DriverInstaller.exe
+
+# ToDesk 远程控制
+PROCESS-NAME,ToDesk.exe
+PROCESS-NAME,ToDesk_Service.exe
+PROCESS-NAME,ToDesk_Session.exe
+PROCESS-NAME,ToDesk_Setup.exe
+
+# Windows 远程桌面
+PROCESS-NAME,mstsc.exe
+PROCESS-NAME,devcon.exe
+
+# === 域名规则 ===
+# 向日葵 Sunlogin
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,oray.net
+DOMAIN-SUFFIX,sunlogin.net
+
+# ToDesk
+DOMAIN-SUFFIX,todesk.com
+
+# TeamViewer
+DOMAIN-SUFFIX,teamviewer.com
+
+# AnyDesk
+DOMAIN-SUFFIX,anydesk.com
+
+# RustDesk
+DOMAIN-SUFFIX,rustdesk.com
+
+# Parsec
+DOMAIN-SUFFIX,parsec.app
+
+# Chrome Remote Desktop
+DOMAIN-SUFFIX,remotedesktop.google.com
+
+# Microsoft Remote Desktop
+DOMAIN-SUFFIX,rdp.microsoft.com
+DOMAIN-SUFFIX,remotedesktop.microsoft.com
