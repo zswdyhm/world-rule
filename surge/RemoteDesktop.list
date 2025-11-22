@@ -1,60 +1,20 @@
 # NAME: RemoteDesktop
+# AUTHOR: zswdyhm
+# REPO: https://github.com/zswdyhm/world-rule
 # UPDATED: 2025-11-22
-# PROCESS-NAME: 18
-# DOMAIN-SUFFIX: 28
+# DOMAIN-SUFFIX: 27
 # DOMAIN: 2
-# TOTAL: 48
+# TOTAL: 29
 
 # 远程桌面/远程控制规则
-# 数据来源: https://github.com/blackmatrix7/ios_rule_script + 补充
-
-# ========================================
-# 进程名称规则 (PROCESS-NAME)
-# ========================================
-
-# Apple 屏幕共享 / Apple Remote Desktop (macOS)
-PROCESS-NAME,Screen Sharing
-PROCESS-NAME,Remote Desktop
-PROCESS-NAME,screensharingd
-
-# 向日葵远程控制 (Sunlogin/Oray)
-PROCESS-NAME,SunloginClient.exe
-PROCESS-NAME,CrashReport.exe
-PROCESS-NAME,DriverInstaller.exe
-
-# ToDesk 远程控制
-PROCESS-NAME,ToDesk.exe
-PROCESS-NAME,ToDesk_Service.exe
-PROCESS-NAME,ToDesk_Session.exe
-PROCESS-NAME,ToDesk_Setup.exe
-
-# Windows 远程桌面
-PROCESS-NAME,mstsc.exe
-PROCESS-NAME,devcon.exe
-
-# TeamViewer
-PROCESS-NAME,TeamViewer.exe
-PROCESS-NAME,TeamViewer_Service.exe
-
-# AnyDesk
-PROCESS-NAME,AnyDesk.exe
-
-# RustDesk
-PROCESS-NAME,rustdesk.exe
-
-# 网易 UU 远程 (UURemote)
-PROCESS-NAME,UURemote
-
-# ========================================
-# 域名规则 (DOMAIN / DOMAIN-SUFFIX)
-# ========================================
+# 适用于 Surge RULE-SET 引用
+# 注意: PROCESS-NAME 规则仅支持 macOS 且需在主配置中定义，故不包含在此规则集中
 
 # --- 向日葵 Sunlogin (贝锐 Oray) ---
 DOMAIN-SUFFIX,oray.com
 DOMAIN-SUFFIX,oray.net
 DOMAIN-SUFFIX,oray.cn
 DOMAIN-SUFFIX,sunlogin.net
-DOMAIN-SUFFIX,sunlogin.oray.com
 
 # --- 网易 UU 远程 (UURemote / Game Viewer) ---
 DOMAIN-SUFFIX,uuyc.163.com
