@@ -1,0 +1,18 @@
+# NAME: Bitget
+# AUTHOR: zswdyhm
+# REPO: https://github.com/zswdyhm/world-rule
+# UPDATED: 2025-11-16
+# FORMAT: Stash (YAML)
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+
+payload:
+  # Bitget 交易所规则
+  # 主域名
+  - DOMAIN-SUFFIX,bitget.com
+  - DOMAIN-SUFFIX,bitget.info
+
+  # API 和 WebSocket 域名
+  - DOMAIN-SUFFIX,bitgetapi.com
+  - DOMAIN-SUFFIX,bitgetimg.com
+  - DOMAIN-SUFFIX,bitgetapp.com
