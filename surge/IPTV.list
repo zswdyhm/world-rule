@@ -1,0 +1,73 @@
+# IPTV Streaming Platform Domains
+# Source: iptv-org/iptv full English channel database (2434 channels)
+# Only includes domains whose primary business is live streaming distribution
+# Generic CDNs (cloudfront/akamai/aws) excluded to prevent false positives
+# 60 rules — covers current + future IPTV channels
+
+# === FAST/OTT distribution platforms ===
+DOMAIN-SUFFIX,amagi.tv
+DOMAIN-SUFFIX,wurl.com
+DOMAIN-SUFFIX,wurl.tv
+DOMAIN-SUFFIX,transmit.live
+DOMAIN-SUFFIX,jmp2.uk
+DOMAIN-SUFFIX,bozztv.com
+DOMAIN-SUFFIX,frequency.stream
+DOMAIN-SUFFIX,tubi.video
+DOMAIN-SUFFIX,uplynk.com
+DOMAIN-SUFFIX,otteravision.com
+DOMAIN-SUFFIX,ottera.tv
+DOMAIN-SUFFIX,sofast.tv
+DOMAIN-SUFFIX,cinedigm.com
+DOMAIN-SUFFIX,viloud.tv
+DOMAIN-SUFFIX,vos360.video
+
+# === Streaming infrastructure ===
+DOMAIN-SUFFIX,streamlock.net
+DOMAIN-SUFFIX,wowza.com
+DOMAIN-SUFFIX,streamhoster.com
+DOMAIN-SUFFIX,cablecast.tv
+DOMAIN-SUFFIX,telvue.com
+DOMAIN-SUFFIX,streamspot.com
+DOMAIN-SUFFIX,castr.com
+DOMAIN-SUFFIX,castr.net
+DOMAIN-SUFFIX,simplestreamcdn.com
+DOMAIN-SUFFIX,mycloudstream.io
+DOMAIN-SUFFIX,broadpeak.io
+DOMAIN-SUFFIX,kaltura.com
+DOMAIN-SUFFIX,field59.com
+DOMAIN-SUFFIX,jwplive.com
+DOMAIN-SUFFIX,pishow.tv
+
+# === Major media outlets ===
+DOMAIN-SUFFIX,stingray.com
+DOMAIN-SUFFIX,pbs.org
+DOMAIN-SUFFIX,pbskids.org
+DOMAIN-SUFFIX,bloomberg.com
+DOMAIN-SUFFIX,cbsnews.com
+DOMAIN-SUFFIX,cbsivideo.com
+DOMAIN-SUFFIX,france24.com
+DOMAIN-SUFFIX,nbcuni.com
+DOMAIN-SUFFIX,ntdtv.com
+DOMAIN-SUFFIX,weathernationtv.com
+DOMAIN-SUFFIX,sinclairstoryline.com
+DOMAIN-SUFFIX,univisionnow.com
+DOMAIN-SUFFIX,getaj.net
+DOMAIN-SUFFIX,liveone.com
+DOMAIN-SUFFIX,brightcove.com
+
+# === Regional / video-specific CDNs ===
+DOMAIN-SUFFIX,goliveafrica.media
+DOMAIN-SUFFIX,klowdtv.com
+DOMAIN-SUFFIX,live247stream.com
+DOMAIN-SUFFIX,viewmedia.tv
+DOMAIN-SUFFIX,worldcast.tv
+DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,videodelivery.net
+DOMAIN-SUFFIX,5centscdn.com
+DOMAIN-SUFFIX,edgenextcdn.net
+DOMAIN-SUFFIX,ercdn.net
+DOMAIN-SUFFIX,mncdn.com
+DOMAIN-SUFFIX,itworkscdn.net
+DOMAIN-SUFFIX,fasttvcdn.com
+DOMAIN-SUFFIX,fuelmedia.io
+DOMAIN-SUFFIX,streamguys1.com

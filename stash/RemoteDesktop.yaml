@@ -1,0 +1,70 @@
+# NAME: RemoteDesktop
+# AUTHOR: zswdyhm
+# REPO: https://github.com/zswdyhm/world-rule
+# UPDATED: 2025-11-22
+# FORMAT: Stash (YAML)
+# DOMAIN-SUFFIX: 27
+# DOMAIN: 2
+# TOTAL: 29
+
+payload:
+  # 远程桌面/远程控制规则
+
+  # --- 向日葵 Sunlogin (贝锐 Oray) ---
+  - DOMAIN-SUFFIX,oray.com
+  - DOMAIN-SUFFIX,oray.net
+  - DOMAIN-SUFFIX,oray.cn
+  - DOMAIN-SUFFIX,sunlogin.net
+
+  # --- 网易 UU 远程 (UURemote / Game Viewer) ---
+  - DOMAIN-SUFFIX,uuyc.163.com
+  - DOMAIN-SUFFIX,uu.163.com
+
+  # --- ToDesk ---
+  - DOMAIN-SUFFIX,todesk.com
+
+  # --- TeamViewer ---
+  - DOMAIN-SUFFIX,teamviewer.com
+
+  # --- AnyDesk ---
+  - DOMAIN-SUFFIX,anydesk.com
+  - DOMAIN-SUFFIX,net.anydesk.com
+
+  # --- RustDesk ---
+  - DOMAIN-SUFFIX,rustdesk.com
+
+  # --- Parsec (远程游戏) ---
+  - DOMAIN-SUFFIX,parsec.app
+  - DOMAIN-SUFFIX,parsecgaming.com
+
+  # --- Chrome Remote Desktop (Google) ---
+  - DOMAIN-SUFFIX,remotedesktop.google.com
+  - DOMAIN,remotedesktop-pa.googleapis.com
+
+  # --- Microsoft Remote Desktop ---
+  - DOMAIN-SUFFIX,rdp.microsoft.com
+  - DOMAIN-SUFFIX,remotedesktop.microsoft.com
+
+  # --- Splashtop ---
+  - DOMAIN-SUFFIX,splashtop.com
+  - DOMAIN-SUFFIX,splashtop.cn
+  - DOMAIN-SUFFIX,splashtop.eu
+
+  # --- Jump Desktop ---
+  - DOMAIN-SUFFIX,jumpdesktop.com
+
+  # --- VNC / RealVNC ---
+  - DOMAIN-SUFFIX,realvnc.com
+
+  # --- LogMeIn ---
+  - DOMAIN-SUFFIX,logmein.com
+  - DOMAIN-SUFFIX,logme.in
+
+  # --- NoMachine ---
+  - DOMAIN-SUFFIX,nomachine.com
+
+  # --- Moonlight (开源游戏串流) ---
+  - DOMAIN-SUFFIX,moonlight-stream.org
+
+  # --- Remotix ---
+  - DOMAIN,api.remotix.com

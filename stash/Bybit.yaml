@@ -1,0 +1,24 @@
+# NAME: Bybit
+# AUTHOR: zswdyhm
+# REPO: https://github.com/zswdyhm/world-rule
+# UPDATED: 2025-11-16
+# FORMAT: Stash (YAML)
+# DOMAIN-SUFFIX: 7
+# DOMAIN: 1
+# TOTAL: 8
+
+payload:
+  # Bybit 交易所规则
+  # 主域名
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,bybit.biz
+
+  # CDN 和 API 域名
+  - DOMAIN-SUFFIX,bybdc6.com
+  - DOMAIN-SUFFIX,byabcde.com
+  - DOMAIN-SUFFIX,byapps.net
+  - DOMAIN-SUFFIX,byd3c3.com
+
+  # WebSocket 和监控域名
+  - DOMAIN,monitor-frontend-collector.a.bybit-aws.com
+  - DOMAIN-SUFFIX,bybit-aws.com

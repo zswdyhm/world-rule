@@ -1,0 +1,14 @@
+# NAME: Bitget
+# UPDATED: 2025-11-16
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+
+# Bitget 交易所规则
+# 主域名
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.info
+
+# API 和 WebSocket 域名
+DOMAIN-SUFFIX,bitgetapi.com
+DOMAIN-SUFFIX,bitgetimg.com
+DOMAIN-SUFFIX,bitgetapp.com
